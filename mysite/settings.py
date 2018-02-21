@@ -25,7 +25,9 @@ SECRET_KEY = '&pr7+n$w2-&9p@nrkeb#80my0t3z+iv8n$9^zu3q$*z0ip)lyv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '.cloudapps.unc.edu',
+]
 
 
 # Application definition
